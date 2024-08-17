@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Envio.Views.Producto.VPPrincipal"
+             Title="Productos">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="{StaticResource PKColor}">
+            <Frame CornerRadius="50" Padding="5" Margin="30,20">
+                <SearchBar HorizontalOptions="Center"/>
+                <!--<StackLayout>
+                    <Entry ClearButtonVisibility="WhileEditing" Placeholder="Buscar.."/>
+                </StackLayout>-->
+                
+            </Frame>
+            <Grid ColumnDefinitions="*,*,*">
+                <Button Grid.Column="0" Text="Click Here" BackgroundColor="Green" CornerRadius="50" Margin="10,20"/>
+                <Button Grid.Column="1" Text="Click Here" CornerRadius="50" Margin="10,20"/>
+                <Button Grid.Column="2" Text="Click Here" CornerRadius="50" Margin="10,20"/>
+            </Grid>
+            <Frame Padding="0" Margin="30, 20" CornerRadius="50" HeightRequest="200">
+                <Image Aspect="AspectFill" Source="https://www.la-razon.com/wp-content/uploads/2022/09/27/03/marvel.jpg"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

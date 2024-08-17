@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Envio.Views.Home.VHBody">
+  <ContentView.Content>
+      <StackLayout>
+            <Frame>
+                <Image HeightRequest="300" Aspect="AspectFill"  Source="https://i.pinimg.com/736x/e5/57/c1/e557c1604707c4fab566a4bf436ed375.jpg"></Image>
+            </Frame>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

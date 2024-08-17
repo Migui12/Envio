@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Envio.Views.Home.VHHeader">
+  <ContentView.Content>
+      <StackLayout>
+            <Label Text="SENATI" HorizontalOptions="Center" FontAttributes="Bold" FontSize="30" TextColor="Blue"/>
+            <Label VerticalOptions="StartAndExpand" Text="Bienvenidos a Seminario II, clase del dia sabado gkeop{rgopgerg{egjgo4i5 lvejfg34f  klwjfoiw´r 2 wfiohrv   2 23r23rg" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="40"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

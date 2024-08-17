@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Envio.Views.Home.VHFooter">
+  <ContentView.Content>
+        <StackLayout>
+
+            <Button x:Name="btn_iniciar_session" Clicked="btn_iniciar_session_Clicked" Text="Iniciar Sessión" BackgroundColor="SkyBlue" TextColor="White" CornerRadius="50" Margin="80,0"/>
+            <Button Text="REGISTRARSE" Style="{StaticResource btn-green}"/>
+           
+            
+            <Label Text="Olvido su contraseña" HorizontalOptions="Center" TextColor="White"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

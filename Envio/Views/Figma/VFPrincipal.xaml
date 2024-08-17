@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Envio.Views.Figma.VFPrincipal"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <Image Aspect="AspectFill" Source="https://casandina.com/wp-content/uploads/2021/12/1568712199_591499_1568712749_noticia_normal-1.jpg"/>
+            </Frame>
+            <Frame CornerRadius="50">
+                <StackLayout Padding="20">
+
+                    <Label x:Name="lblResultado" TextColor="Red"/>
+                    
+                    <Label Text="Usuario:"/>
+                    
+                    <Frame CornerRadius="10" BackgroundColor="#F4F2F2" Padding="5">
+                        <Entry x:Name="txtvalor1"/>
+                    </Frame>
+                    
+                    <Label Text="Contraseña:"/>
+                    
+                    <Frame CornerRadius="10" BackgroundColor="#F4F2F2" Padding="5">
+                        <Entry x:Name="txtvalor2"/>
+                    </Frame>
+                    
+                    <Image HeightRequest="200" Source="https://envios.com.pe/wp-content/uploads/2021/01/envios-exprees.png"/>
+                    <Button x:Name="btn_iniciar_session" Clicked="btn_iniciar_session_Clicked" Text="Iniciar Sessión" BackgroundColor="#FF5454" TextColor="White" CornerRadius="10" Margin="50,0"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label  Text="No tienes cuenta?" HorizontalOptions="End" Margin="10"/>
+                        <Label  Text="Registrate" TextColor="#FF0000" Margin="10"/>
+                    </StackLayout>
+                </StackLayout>
+                
+            </Frame>
+         
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
